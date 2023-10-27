@@ -1,0 +1,33 @@
+
+
+.table-container {
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    --bs-table-bg:black;
+    --bs-table-color:white
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color:gray;
+  }
+  
+  /* Make the header fixed */
+  .table thead {
+    position: sticky;
+    top: 0;
+    background-color:black !important;
+    z-index: 1;
+  }
+  

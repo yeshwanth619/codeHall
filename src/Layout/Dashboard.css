@@ -1,0 +1,87 @@
+/* Header styling */
+.header {
+    background-color: grey;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/* Media query for screens below 768px */
+@media (max-width: 768px) {
+    .header {
+        font-size: 20px; 
+    }
+}
+
+/* Styling for labels */
+.timeRangeLabel {
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.currencyLabel {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Styling for select dropdowns */
+#dropDownSelect {
+    height: 2rem;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+/* Container margin for content */
+.container {
+    margin-top: 3rem;
+}
+
+/* Default styles for screens above 600px */
+.select-container {
+    display: flex;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+/* Style for screens below 600px */
+@media (max-width: 600px) {
+    .select-container {
+        flex-direction: column; /* Stack select elements vertically */
+        align-items: center; /* Center horizontally */
+    }
+
+   
+    .select-wrapper {
+        margin-top: 10px;
+    }
+}
+
+/* Styling for chart label */
+.chartLabel {
+    font-size: 24px;
+    font-weight: 600;
+    color: brown;
+}
+
+/* Styling for the main dashboard container */
+.DashboardMain {
+    min-height: 100vh; /* Minimum height of the viewport */
+}
+
+/* Styling for error message */
+.error {
+    margin-top: 3rem;
+    color: white;
+    font-size: 20px;
+}
