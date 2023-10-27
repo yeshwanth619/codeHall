@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Cryptocurrency Price Dashboard
+
+A simple web application for viewing cryptocurrency prices and trends. This project utilizes React, Recharts, and React-Table to display data in both graphical and tabular formats.
+
+
+## Features
+
+- View cryptocurrency price trends on an interactive chart.
+- Filter data by selecting different time ranges and currencies.
+- Sort and view data in a table format.
+- Responsive design for various screen sizes.
+- Utilizes real-time data from the CoinGecko API.
+- Error handling for API requests.
+
+
+
+### Prerequisites
+
+
+
+- Node.js and npm installed on your machine.
+-vs code
+
+### Installation
+
+1. Clone the repository in the folder
+2. Open the folder in vscode
+3. change the directory to src cd src using terminal
+4. run npm start in terminal
+
+
+
